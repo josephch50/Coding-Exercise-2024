@@ -2,11 +2,11 @@
 // Author: Joseph Chen
 // Description: Creates a 72-hour simulation of continuous mining using n-mining stations
 
+#include <logger.hpp>
 #include <station.hpp>
 #include <truck.hpp>
 #include <stdio.h>
 #include <ctime>
-
 
 // Configurable Simulation Parameters
 #define NUM_STATIONS 3
@@ -19,13 +19,12 @@
 #define TIME_RANGE_MIN 1*60*60
 
 
-
 int main() {
-    printf("************ Lunar Mining Simulation ************\n");
     // Initialize Trucks and Stations
     uint32_t timestamp_s = 0;
-    Truck trucks[NUM_TRUCKS];
-    Station stations[NUM_STATIONS];
+    DataLogger logger(&timestamp_s);
+    Truck trucks[NUM_TRUCKS] = {&logger};
+    Station stations[NUM_STATIONS] = {&logger};
     TruckStatus truckStatus;
     StationStatus stationStatus;
     int i, j, minQueue = 0;
@@ -35,6 +34,7 @@ int main() {
     //   if truck.first() == waiting, station tells truck to start mining
     // once truck done mining over a specific amount of time, --> unload.
 
+    logger.write("************ Lunar Mining Simulation ************\n");
     // Runs each second
     for (timestamp_s = 0; timestamp_s < NUM_HOURS * 3600; timestamp_s++) {
         // Iterate through all Trucks
@@ -51,7 +51,7 @@ int main() {
                 int randNum = rand()%(TIME_RANGE_MAX-TIME_RANGE_MIN + 1) + TIME_RANGE_MIN;
                 trucks[i].startTask(timestamp_s, {TIME_TRANSITION, (uint32_t) randNum, TIME_UNLOAD});
                 stations[minQueue].addToQueue(&trucks[i]);
-                printf("[T+%dm] Truck %d Queued at Station %d. Mine Time=%d min\n", timestamp_s/60, i, minQueue, randNum/60);
+                logger.write("[T+%dm] Truck %d Queued at Station %d. Mine Time=%d min\n", timestamp_s/60, i, minQueue, randNum/60);
             }
         }
 
@@ -62,14 +62,14 @@ int main() {
     }
 
     // Simulation Statistic Printout
-    printf("\nStatistics:\n\n*** Stations ***\n");
+    logger.write("\nStatistics:\n\n*** Stations ***\n");
     for (i = 0; i < NUM_STATIONS; i++) {
-        printf("Station %d: Total Trucks: %d Total Mine Time: %f hr\n", i, stations[i].getTotalTrucks(), static_cast<double>(stations[i].getTotalMiningTime())/60/60);
     }
-    printf("\n**** Trucks ****\n");
+        logger.write("Station %d: Total Trucks: %d Total Mine Time: %f hr\n", i, stations[i].getTotalTrucks(), static_cast<double>(stations[i].getTotalMiningTime())/60/60);
+    logger.write("\n**** Trucks ****\n");
     for (i = 0; i < NUM_TRUCKS; i++) {
-        printf("Truck %d: Total Mines: %d Total Mine Time: %f hr\n", i, trucks[i].getTotalStations(), static_cast<double>(trucks[i].getTotalMiningTime())/60/60);
+        logger.write("Truck %d: Total Mines: %d Total Mine Time: %f hr\n", i, trucks[i].getTotalStations(), static_cast<double>(trucks[i].getTotalMiningTime())/60/60);
     }
-    printf("********** Lunar Mining Simulation End **********\n");
+    logger.write("********** Lunar Mining Simulation End **********\n");
     return 0;
 }

@@ -1,6 +1,5 @@
 
 #include <truck.hpp>
-#include <stdio.h>
 
 uint16_t Truck::startTask(uint32_t time, TruckProfile p)
 {
@@ -23,7 +22,7 @@ TruckStatus Truck::poll(uint16_t id, uint32_t time)
         case TRUCK_TRANSITION:
             if (elapsed >= profile.transition)
             {
-                printf("[T+%dm] Truck %d (%p) Waiting... (elapsed %d min)\n", time/60, id, this, elapsed/60);
+                logger->write("[T+%dm] Truck %d (%p) Waiting... (elapsed %d min)\n", time/60, id, this, elapsed/60);
                 startTime_s = time;
                 status = TRUCK_WAITING;
             }
@@ -31,7 +30,7 @@ TruckStatus Truck::poll(uint16_t id, uint32_t time)
         case TRUCK_MINING:
             if (elapsed >= profile.mining)
             {
-                printf("[T+%dm] Truck %d (%p) Done Mining... (elapsed %d min)\n", time/60, id, this, elapsed/60);
+                logger->write("[T+%dm] Truck %d (%p) Done Mining... (elapsed %d min)\n", time/60, id, this, elapsed/60);
                 totalMineTime += elapsed;
                 startTime_s = time;
                 status = TRUCK_UNLOADING;
@@ -40,7 +39,7 @@ TruckStatus Truck::poll(uint16_t id, uint32_t time)
         case TRUCK_UNLOADING:
             if (elapsed >= profile.unloading)
             {
-                printf("[T+%dm] Truck %d (%p) Done Unloading... (elapsed %d min)\n", time/60, id, this, elapsed/60);
+                logger->write("[T+%dm] Truck %d (%p) Done Unloading... (elapsed %d min)\n", time/60, id, this, elapsed/60);
                 startTime_s = time;
                 status = TRUCK_IDLE;
             }

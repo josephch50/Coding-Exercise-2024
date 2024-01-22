@@ -4,6 +4,7 @@
 #ifndef STATION_HPP_
 #define STATION_HPP_
 
+#include <logger.hpp>
 #include <truck.hpp>
 
 #include <stdint.h>
@@ -19,7 +20,15 @@ class Station {
         Station() :
             status(STATION_IDLE),
             totalTrucks(0),
-            totalMineTime(0)
+            totalMineTime(0),
+            logger(0)
+        {}
+
+        Station(DataLogger *log) :
+            status(STATION_IDLE),
+            totalTrucks(0),
+            totalMineTime(0),
+            logger(log)
         {}
         uint16_t addToQueue(Truck* truck);
         uint16_t getQueueSize(void);
@@ -34,10 +43,11 @@ class Station {
         uint16_t totalTrucks;
         uint16_t totalMineTime;
         std::queue<Truck*> queue;
+        DataLogger *logger;
 
 };
 uint16_t getTotalTrucks();
 
 uint16_t getTotalMiningTime();
 
-#endif
+#endif //STATION_HPP_

@@ -1,8 +1,5 @@
 
-#include <stdio.h>
-#include <stdint.h>
 #include <station.hpp>
-
 
 uint16_t Station::getTotalTrucks(void)
 {
@@ -44,7 +41,7 @@ StationStatus Station::poll(uint16_t id, uint32_t time)
         {
             // Start Mining
             queue.front()->startMining(time);
-            printf("[T+%dm] Station %d: Truck %p: Start Mining for next %d minutes\n", time/60, id, queue.front(), queue.front()->getProfile().mining/60);
+            logger->write("[T+%dm] Station %d: Truck %p: Start Mining for next %d minutes\n", time/60, id, queue.front(), queue.front()->getProfile().mining/60);
         }
 
         if (!queue.empty() && (queue.front()->getStatus() == TRUCK_MINING))

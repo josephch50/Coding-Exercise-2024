@@ -2,6 +2,7 @@
 #define TRUCK_HPP_
 
 #include <stdint.h>
+#include <logger.hpp>
 
 struct TruckProfile {
     uint32_t transition;
@@ -23,7 +24,16 @@ class Truck {
             startTime_s(0),
             status(TRUCK_IDLE),
             totalStations(0),
-            totalMineTime(0)
+            totalMineTime(0),
+            logger(0)
+        {}
+
+        Truck(DataLogger *log) :
+            startTime_s(0),
+            status(TRUCK_IDLE),
+            totalStations(0),
+            totalMineTime(0),
+            logger(log)
         {}
         uint16_t startTask(uint32_t time, TruckProfile profile);
         TruckStatus poll(uint16_t id, uint32_t time);
@@ -38,6 +48,7 @@ class Truck {
         uint32_t startTime_s;
         uint16_t totalStations;
         uint16_t totalMineTime;
+        DataLogger *logger;
 };
 
-#endif
+#endif // TRUCK_HPP_
