@@ -8,14 +8,14 @@ on:
 
 jobs:
   build-and-test:
-      runs-on: ubuntu-latest
-      steps:
+    runs-on: ubuntu-latest
+    steps:
       - uses: actions/checkout@v2
       - name: install cppunit
-      run: sudo apt install -y libcppunit-dev
+        run: sudo apt install -y libcppunit-dev
       - name: configure
-      run: cmake -B build
+        run: cmake -B build
       - name: make
-      run: cmake --build build -t simulation
+        run: cmake --build build -t simulation
       - name: run simulation
-      run: ./build/simulation
+        run: ./build/simulation
