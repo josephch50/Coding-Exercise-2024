@@ -1,4 +1,5 @@
 # Coding Exercise
+[![C/C++ CI](https://github.com/josephch50/Coding-Exercise-2024/actions/workflows/compileandrun.yml/badge.svg)](https://github.com/josephch50/Coding-Exercise-2024/actions/workflows/compileandrun.yml)
 
 ## Build Instructions
 ```
