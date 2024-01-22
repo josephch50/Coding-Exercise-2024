@@ -7,6 +7,8 @@
 #include <truck.hpp>
 #include <stdio.h>
 #include <ctime>
+#include <cstdlib>
+
 
 // Configurable Simulation Parameters
 #define NUM_STATIONS 3
