@@ -1,0 +1,387 @@
+************ Lunar Mining Simulation ************
+[T+0m] Truck 0 Queued at Station 0. Mine Time=100 min
+[T+0m] Truck 1 Queued at Station 1. Mine Time=293 min
+[T+0m] Truck 2 Queued at Station 2. Mine Time=109 min
+[T+0m] Truck 3 Queued at Station 0. Mine Time=87 min
+[T+0m] Truck 4 Queued at Station 1. Mine Time=178 min
+[T+0m] Truck 5 Queued at Station 2. Mine Time=130 min
+[T+0m] Truck 6 Queued at Station 0. Mine Time=135 min
+[T+0m] Truck 7 Queued at Station 1. Mine Time=207 min
+[T+0m] Truck 8 Queued at Station 2. Mine Time=297 min
+[T+0m] Truck 9 Queued at Station 0. Mine Time=258 min
+[T+30m] Truck 0 (0x16d11ab78) Waiting... (elapsed 30 min)
+[T+30m] Truck 1 (0x16d11ab98) Waiting... (elapsed 30 min)
+[T+30m] Truck 2 (0x16d11abb8) Waiting... (elapsed 30 min)
+[T+30m] Truck 3 (0x16d11abd8) Waiting... (elapsed 30 min)
+[T+30m] Truck 4 (0x16d11abf8) Waiting... (elapsed 30 min)
+[T+30m] Truck 5 (0x16d11ac18) Waiting... (elapsed 30 min)
+[T+30m] Truck 6 (0x16d11ac38) Waiting... (elapsed 30 min)
+[T+30m] Truck 7 (0x16d11ac58) Waiting... (elapsed 30 min)
+[T+30m] Truck 8 (0x16d11ac78) Waiting... (elapsed 30 min)
+[T+30m] Truck 9 (0x16d11ac98) Waiting... (elapsed 30 min)
+[T+30m] Station 0: Truck 0x16d11ab78: Start Mining for next 100 minutes
+[T+30m] Station 1: Truck 0x16d11ab98: Start Mining for next 293 minutes
+[T+30m] Station 2: Truck 0x16d11abb8: Start Mining for next 109 minutes
+[T+130m] Truck 0 (0x16d11ab78) Done Mining... (elapsed 100 min)
+[T+130m] Station 0: Truck 0x16d11abd8: Start Mining for next 87 minutes
+[T+135m] Truck 0 (0x16d11ab78) Done Unloading... (elapsed 5 min)
+[T+135m] Truck 0 Queued at Station 0. Mine Time=60 min
+[T+139m] Truck 2 (0x16d11abb8) Done Mining... (elapsed 109 min)
+[T+139m] Station 2: Truck 0x16d11ac18: Start Mining for next 130 minutes
+[T+144m] Truck 2 (0x16d11abb8) Done Unloading... (elapsed 5 min)
+[T+144m] Truck 2 Queued at Station 2. Mine Time=205 min
+[T+165m] Truck 0 (0x16d11ab78) Waiting... (elapsed 30 min)
+[T+174m] Truck 2 (0x16d11abb8) Waiting... (elapsed 30 min)
+[T+217m] Truck 3 (0x16d11abd8) Done Mining... (elapsed 87 min)
+[T+217m] Station 0: Truck 0x16d11ac38: Start Mining for next 135 minutes
+[T+222m] Truck 3 (0x16d11abd8) Done Unloading... (elapsed 5 min)
+[T+222m] Truck 3 Queued at Station 0. Mine Time=282 min
+[T+252m] Truck 3 (0x16d11abd8) Waiting... (elapsed 30 min)
+[T+270m] Truck 5 (0x16d11ac18) Done Mining... (elapsed 130 min)
+[T+270m] Station 2: Truck 0x16d11ac78: Start Mining for next 297 minutes
+[T+275m] Truck 5 (0x16d11ac18) Done Unloading... (elapsed 5 min)
+[T+275m] Truck 5 Queued at Station 2. Mine Time=158 min
+[T+305m] Truck 5 (0x16d11ac18) Waiting... (elapsed 30 min)
+[T+323m] Truck 1 (0x16d11ab98) Done Mining... (elapsed 293 min)
+[T+323m] Station 1: Truck 0x16d11abf8: Start Mining for next 178 minutes
+[T+328m] Truck 1 (0x16d11ab98) Done Unloading... (elapsed 5 min)
+[T+328m] Truck 1 Queued at Station 1. Mine Time=113 min
+[T+353m] Truck 6 (0x16d11ac38) Done Mining... (elapsed 135 min)
+[T+353m] Station 0: Truck 0x16d11ac98: Start Mining for next 258 minutes
+[T+358m] Truck 6 (0x16d11ac38) Done Unloading... (elapsed 5 min)
+[T+358m] Truck 6 Queued at Station 0. Mine Time=91 min
+[T+358m] Truck 1 (0x16d11ab98) Waiting... (elapsed 30 min)
+[T+388m] Truck 6 (0x16d11ac38) Waiting... (elapsed 30 min)
+[T+502m] Truck 4 (0x16d11abf8) Done Mining... (elapsed 178 min)
+[T+502m] Station 1: Truck 0x16d11ac58: Start Mining for next 207 minutes
+[T+507m] Truck 4 (0x16d11abf8) Done Unloading... (elapsed 5 min)
+[T+507m] Truck 4 Queued at Station 1. Mine Time=84 min
+[T+537m] Truck 4 (0x16d11abf8) Waiting... (elapsed 30 min)
+[T+567m] Truck 8 (0x16d11ac78) Done Mining... (elapsed 297 min)
+[T+567m] Station 2: Truck 0x16d11abb8: Start Mining for next 205 minutes
+[T+572m] Truck 8 (0x16d11ac78) Done Unloading... (elapsed 5 min)
+[T+572m] Truck 8 Queued at Station 2. Mine Time=289 min
+[T+602m] Truck 8 (0x16d11ac78) Waiting... (elapsed 30 min)
+[T+612m] Truck 9 (0x16d11ac98) Done Mining... (elapsed 258 min)
+[T+612m] Station 0: Truck 0x16d11ab78: Start Mining for next 60 minutes
+[T+617m] Truck 9 (0x16d11ac98) Done Unloading... (elapsed 5 min)
+[T+617m] Truck 9 Queued at Station 0. Mine Time=87 min
+[T+647m] Truck 9 (0x16d11ac98) Waiting... (elapsed 30 min)
+[T+673m] Truck 0 (0x16d11ab78) Done Mining... (elapsed 60 min)
+[T+673m] Station 0: Truck 0x16d11abd8: Start Mining for next 282 minutes
+[T+678m] Truck 0 (0x16d11ab78) Done Unloading... (elapsed 5 min)
+[T+678m] Truck 0 Queued at Station 0. Mine Time=190 min
+[T+708m] Truck 0 (0x16d11ab78) Waiting... (elapsed 30 min)
+[T+709m] Truck 7 (0x16d11ac58) Done Mining... (elapsed 207 min)
+[T+709m] Station 1: Truck 0x16d11ab98: Start Mining for next 113 minutes
+[T+714m] Truck 7 (0x16d11ac58) Done Unloading... (elapsed 5 min)
+[T+714m] Truck 7 Queued at Station 1. Mine Time=227 min
+[T+744m] Truck 7 (0x16d11ac58) Waiting... (elapsed 30 min)
+[T+772m] Truck 2 (0x16d11abb8) Done Mining... (elapsed 205 min)
+[T+772m] Station 2: Truck 0x16d11ac18: Start Mining for next 158 minutes
+[T+777m] Truck 2 (0x16d11abb8) Done Unloading... (elapsed 5 min)
+[T+777m] Truck 2 Queued at Station 2. Mine Time=265 min
+[T+807m] Truck 2 (0x16d11abb8) Waiting... (elapsed 30 min)
+[T+823m] Truck 1 (0x16d11ab98) Done Mining... (elapsed 113 min)
+[T+823m] Station 1: Truck 0x16d11abf8: Start Mining for next 84 minutes
+[T+828m] Truck 1 (0x16d11ab98) Done Unloading... (elapsed 5 min)
+[T+828m] Truck 1 Queued at Station 1. Mine Time=171 min
+[T+858m] Truck 1 (0x16d11ab98) Waiting... (elapsed 30 min)
+[T+907m] Truck 4 (0x16d11abf8) Done Mining... (elapsed 84 min)
+[T+907m] Station 1: Truck 0x16d11ac58: Start Mining for next 227 minutes
+[T+912m] Truck 4 (0x16d11abf8) Done Unloading... (elapsed 5 min)
+[T+912m] Truck 4 Queued at Station 1. Mine Time=86 min
+[T+930m] Truck 5 (0x16d11ac18) Done Mining... (elapsed 158 min)
+[T+930m] Station 2: Truck 0x16d11ac78: Start Mining for next 289 minutes
+[T+935m] Truck 5 (0x16d11ac18) Done Unloading... (elapsed 5 min)
+[T+935m] Truck 5 Queued at Station 2. Mine Time=249 min
+[T+942m] Truck 4 (0x16d11abf8) Waiting... (elapsed 30 min)
+[T+956m] Truck 3 (0x16d11abd8) Done Mining... (elapsed 282 min)
+[T+956m] Station 0: Truck 0x16d11ac38: Start Mining for next 91 minutes
+[T+961m] Truck 3 (0x16d11abd8) Done Unloading... (elapsed 5 min)
+[T+961m] Truck 3 Queued at Station 0. Mine Time=265 min
+[T+965m] Truck 5 (0x16d11ac18) Waiting... (elapsed 30 min)
+[T+991m] Truck 3 (0x16d11abd8) Waiting... (elapsed 30 min)
+[T+1047m] Truck 6 (0x16d11ac38) Done Mining... (elapsed 91 min)
+[T+1047m] Station 0: Truck 0x16d11ac98: Start Mining for next 87 minutes
+[T+1052m] Truck 6 (0x16d11ac38) Done Unloading... (elapsed 5 min)
+[T+1052m] Truck 6 Queued at Station 0. Mine Time=263 min
+[T+1082m] Truck 6 (0x16d11ac38) Waiting... (elapsed 30 min)
+[T+1134m] Truck 7 (0x16d11ac58) Done Mining... (elapsed 227 min)
+[T+1134m] Station 1: Truck 0x16d11ab98: Start Mining for next 171 minutes
+[T+1135m] Truck 9 (0x16d11ac98) Done Mining... (elapsed 87 min)
+[T+1135m] Station 0: Truck 0x16d11ab78: Start Mining for next 190 minutes
+[T+1139m] Truck 7 (0x16d11ac58) Done Unloading... (elapsed 5 min)
+[T+1139m] Truck 7 Queued at Station 1. Mine Time=226 min
+[T+1140m] Truck 9 (0x16d11ac98) Done Unloading... (elapsed 5 min)
+[T+1140m] Truck 9 Queued at Station 0. Mine Time=63 min
+[T+1169m] Truck 7 (0x16d11ac58) Waiting... (elapsed 30 min)
+[T+1170m] Truck 9 (0x16d11ac98) Waiting... (elapsed 30 min)
+[T+1220m] Truck 8 (0x16d11ac78) Done Mining... (elapsed 289 min)
+[T+1220m] Station 2: Truck 0x16d11abb8: Start Mining for next 265 minutes
+[T+1225m] Truck 8 (0x16d11ac78) Done Unloading... (elapsed 5 min)
+[T+1225m] Truck 8 Queued at Station 2. Mine Time=266 min
+[T+1255m] Truck 8 (0x16d11ac78) Waiting... (elapsed 30 min)
+[T+1306m] Truck 1 (0x16d11ab98) Done Mining... (elapsed 171 min)
+[T+1306m] Station 1: Truck 0x16d11abf8: Start Mining for next 86 minutes
+[T+1311m] Truck 1 (0x16d11ab98) Done Unloading... (elapsed 5 min)
+[T+1311m] Truck 1 Queued at Station 1. Mine Time=169 min
+[T+1326m] Truck 0 (0x16d11ab78) Done Mining... (elapsed 190 min)
+[T+1326m] Station 0: Truck 0x16d11abd8: Start Mining for next 265 minutes
+[T+1331m] Truck 0 (0x16d11ab78) Done Unloading... (elapsed 5 min)
+[T+1331m] Truck 0 Queued at Station 0. Mine Time=136 min
+[T+1341m] Truck 1 (0x16d11ab98) Waiting... (elapsed 30 min)
+[T+1361m] Truck 0 (0x16d11ab78) Waiting... (elapsed 30 min)
+[T+1392m] Truck 4 (0x16d11abf8) Done Mining... (elapsed 86 min)
+[T+1392m] Station 1: Truck 0x16d11ac58: Start Mining for next 226 minutes
+[T+1397m] Truck 4 (0x16d11abf8) Done Unloading... (elapsed 5 min)
+[T+1397m] Truck 4 Queued at Station 1. Mine Time=86 min
+[T+1427m] Truck 4 (0x16d11abf8) Waiting... (elapsed 30 min)
+[T+1486m] Truck 2 (0x16d11abb8) Done Mining... (elapsed 265 min)
+[T+1486m] Station 2: Truck 0x16d11ac18: Start Mining for next 249 minutes
+[T+1491m] Truck 2 (0x16d11abb8) Done Unloading... (elapsed 5 min)
+[T+1491m] Truck 2 Queued at Station 2. Mine Time=283 min
+[T+1521m] Truck 2 (0x16d11abb8) Waiting... (elapsed 30 min)
+[T+1592m] Truck 3 (0x16d11abd8) Done Mining... (elapsed 265 min)
+[T+1592m] Station 0: Truck 0x16d11ac38: Start Mining for next 263 minutes
+[T+1597m] Truck 3 (0x16d11abd8) Done Unloading... (elapsed 5 min)
+[T+1597m] Truck 3 Queued at Station 0. Mine Time=267 min
+[T+1618m] Truck 7 (0x16d11ac58) Done Mining... (elapsed 226 min)
+[T+1618m] Station 1: Truck 0x16d11ab98: Start Mining for next 169 minutes
+[T+1623m] Truck 7 (0x16d11ac58) Done Unloading... (elapsed 5 min)
+[T+1623m] Truck 7 Queued at Station 1. Mine Time=164 min
+[T+1627m] Truck 3 (0x16d11abd8) Waiting... (elapsed 30 min)
+[T+1653m] Truck 7 (0x16d11ac58) Waiting... (elapsed 30 min)
+[T+1736m] Truck 5 (0x16d11ac18) Done Mining... (elapsed 249 min)
+[T+1736m] Station 2: Truck 0x16d11ac78: Start Mining for next 266 minutes
+[T+1741m] Truck 5 (0x16d11ac18) Done Unloading... (elapsed 5 min)
+[T+1741m] Truck 5 Queued at Station 2. Mine Time=144 min
+[T+1771m] Truck 5 (0x16d11ac18) Waiting... (elapsed 30 min)
+[T+1788m] Truck 1 (0x16d11ab98) Done Mining... (elapsed 169 min)
+[T+1788m] Station 1: Truck 0x16d11abf8: Start Mining for next 86 minutes
+[T+1793m] Truck 1 (0x16d11ab98) Done Unloading... (elapsed 5 min)
+[T+1793m] Truck 1 Queued at Station 1. Mine Time=125 min
+[T+1823m] Truck 1 (0x16d11ab98) Waiting... (elapsed 30 min)
+[T+1855m] Truck 6 (0x16d11ac38) Done Mining... (elapsed 263 min)
+[T+1855m] Station 0: Truck 0x16d11ac98: Start Mining for next 63 minutes
+[T+1860m] Truck 6 (0x16d11ac38) Done Unloading... (elapsed 5 min)
+[T+1860m] Truck 6 Queued at Station 0. Mine Time=286 min
+[T+1874m] Truck 4 (0x16d11abf8) Done Mining... (elapsed 86 min)
+[T+1874m] Station 1: Truck 0x16d11ac58: Start Mining for next 164 minutes
+[T+1879m] Truck 4 (0x16d11abf8) Done Unloading... (elapsed 5 min)
+[T+1879m] Truck 4 Queued at Station 1. Mine Time=172 min
+[T+1890m] Truck 6 (0x16d11ac38) Waiting... (elapsed 30 min)
+[T+1909m] Truck 4 (0x16d11abf8) Waiting... (elapsed 30 min)
+[T+1918m] Truck 9 (0x16d11ac98) Done Mining... (elapsed 63 min)
+[T+1918m] Station 0: Truck 0x16d11ab78: Start Mining for next 136 minutes
+[T+1923m] Truck 9 (0x16d11ac98) Done Unloading... (elapsed 5 min)
+[T+1923m] Truck 9 Queued at Station 0. Mine Time=192 min
+[T+1953m] Truck 9 (0x16d11ac98) Waiting... (elapsed 30 min)
+[T+2002m] Truck 8 (0x16d11ac78) Done Mining... (elapsed 266 min)
+[T+2002m] Station 2: Truck 0x16d11abb8: Start Mining for next 283 minutes
+[T+2007m] Truck 8 (0x16d11ac78) Done Unloading... (elapsed 5 min)
+[T+2007m] Truck 8 Queued at Station 2. Mine Time=142 min
+[T+2037m] Truck 8 (0x16d11ac78) Waiting... (elapsed 30 min)
+[T+2039m] Truck 7 (0x16d11ac58) Done Mining... (elapsed 164 min)
+[T+2039m] Station 1: Truck 0x16d11ab98: Start Mining for next 125 minutes
+[T+2044m] Truck 7 (0x16d11ac58) Done Unloading... (elapsed 5 min)
+[T+2044m] Truck 7 Queued at Station 1. Mine Time=167 min
+[T+2054m] Truck 0 (0x16d11ab78) Done Mining... (elapsed 136 min)
+[T+2054m] Station 0: Truck 0x16d11abd8: Start Mining for next 267 minutes
+[T+2059m] Truck 0 (0x16d11ab78) Done Unloading... (elapsed 5 min)
+[T+2059m] Truck 0 Queued at Station 0. Mine Time=243 min
+[T+2074m] Truck 7 (0x16d11ac58) Waiting... (elapsed 30 min)
+[T+2089m] Truck 0 (0x16d11ab78) Waiting... (elapsed 30 min)
+[T+2165m] Truck 1 (0x16d11ab98) Done Mining... (elapsed 125 min)
+[T+2165m] Station 1: Truck 0x16d11abf8: Start Mining for next 172 minutes
+[T+2170m] Truck 1 (0x16d11ab98) Done Unloading... (elapsed 5 min)
+[T+2170m] Truck 1 Queued at Station 1. Mine Time=238 min
+[T+2200m] Truck 1 (0x16d11ab98) Waiting... (elapsed 30 min)
+[T+2285m] Truck 2 (0x16d11abb8) Done Mining... (elapsed 283 min)
+[T+2285m] Station 2: Truck 0x16d11ac18: Start Mining for next 144 minutes
+[T+2290m] Truck 2 (0x16d11abb8) Done Unloading... (elapsed 5 min)
+[T+2290m] Truck 2 Queued at Station 2. Mine Time=288 min
+[T+2320m] Truck 2 (0x16d11abb8) Waiting... (elapsed 30 min)
+[T+2322m] Truck 3 (0x16d11abd8) Done Mining... (elapsed 267 min)
+[T+2322m] Station 0: Truck 0x16d11ac38: Start Mining for next 286 minutes
+[T+2327m] Truck 3 (0x16d11abd8) Done Unloading... (elapsed 5 min)
+[T+2327m] Truck 3 Queued at Station 0. Mine Time=217 min
+[T+2337m] Truck 4 (0x16d11abf8) Done Mining... (elapsed 172 min)
+[T+2337m] Station 1: Truck 0x16d11ac58: Start Mining for next 167 minutes
+[T+2342m] Truck 4 (0x16d11abf8) Done Unloading... (elapsed 5 min)
+[T+2342m] Truck 4 Queued at Station 1. Mine Time=282 min
+[T+2357m] Truck 3 (0x16d11abd8) Waiting... (elapsed 30 min)
+[T+2372m] Truck 4 (0x16d11abf8) Waiting... (elapsed 30 min)
+[T+2429m] Truck 5 (0x16d11ac18) Done Mining... (elapsed 144 min)
+[T+2429m] Station 2: Truck 0x16d11ac78: Start Mining for next 142 minutes
+[T+2434m] Truck 5 (0x16d11ac18) Done Unloading... (elapsed 5 min)
+[T+2434m] Truck 5 Queued at Station 2. Mine Time=212 min
+[T+2464m] Truck 5 (0x16d11ac18) Waiting... (elapsed 30 min)
+[T+2504m] Truck 7 (0x16d11ac58) Done Mining... (elapsed 167 min)
+[T+2504m] Station 1: Truck 0x16d11ab98: Start Mining for next 238 minutes
+[T+2509m] Truck 7 (0x16d11ac58) Done Unloading... (elapsed 5 min)
+[T+2509m] Truck 7 Queued at Station 1. Mine Time=268 min
+[T+2539m] Truck 7 (0x16d11ac58) Waiting... (elapsed 30 min)
+[T+2572m] Truck 8 (0x16d11ac78) Done Mining... (elapsed 142 min)
+[T+2572m] Station 2: Truck 0x16d11abb8: Start Mining for next 288 minutes
+[T+2577m] Truck 8 (0x16d11ac78) Done Unloading... (elapsed 5 min)
+[T+2577m] Truck 8 Queued at Station 2. Mine Time=71 min
+[T+2607m] Truck 8 (0x16d11ac78) Waiting... (elapsed 30 min)
+[T+2608m] Truck 6 (0x16d11ac38) Done Mining... (elapsed 286 min)
+[T+2608m] Station 0: Truck 0x16d11ac98: Start Mining for next 192 minutes
+[T+2613m] Truck 6 (0x16d11ac38) Done Unloading... (elapsed 5 min)
+[T+2613m] Truck 6 Queued at Station 0. Mine Time=198 min
+[T+2643m] Truck 6 (0x16d11ac38) Waiting... (elapsed 30 min)
+[T+2743m] Truck 1 (0x16d11ab98) Done Mining... (elapsed 238 min)
+[T+2743m] Station 1: Truck 0x16d11abf8: Start Mining for next 282 minutes
+[T+2748m] Truck 1 (0x16d11ab98) Done Unloading... (elapsed 5 min)
+[T+2748m] Truck 1 Queued at Station 1. Mine Time=67 min
+[T+2778m] Truck 1 (0x16d11ab98) Waiting... (elapsed 30 min)
+[T+2801m] Truck 9 (0x16d11ac98) Done Mining... (elapsed 192 min)
+[T+2801m] Station 0: Truck 0x16d11ab78: Start Mining for next 243 minutes
+[T+2806m] Truck 9 (0x16d11ac98) Done Unloading... (elapsed 5 min)
+[T+2806m] Truck 9 Queued at Station 0. Mine Time=115 min
+[T+2836m] Truck 9 (0x16d11ac98) Waiting... (elapsed 30 min)
+[T+2860m] Truck 2 (0x16d11abb8) Done Mining... (elapsed 288 min)
+[T+2860m] Station 2: Truck 0x16d11ac18: Start Mining for next 212 minutes
+[T+2865m] Truck 2 (0x16d11abb8) Done Unloading... (elapsed 5 min)
+[T+2865m] Truck 2 Queued at Station 2. Mine Time=241 min
+[T+2895m] Truck 2 (0x16d11abb8) Waiting... (elapsed 30 min)
+[T+3026m] Truck 4 (0x16d11abf8) Done Mining... (elapsed 282 min)
+[T+3026m] Station 1: Truck 0x16d11ac58: Start Mining for next 268 minutes
+[T+3031m] Truck 4 (0x16d11abf8) Done Unloading... (elapsed 5 min)
+[T+3031m] Truck 4 Queued at Station 1. Mine Time=211 min
+[T+3044m] Truck 0 (0x16d11ab78) Done Mining... (elapsed 243 min)
+[T+3044m] Station 0: Truck 0x16d11abd8: Start Mining for next 217 minutes
+[T+3049m] Truck 0 (0x16d11ab78) Done Unloading... (elapsed 5 min)
+[T+3049m] Truck 0 Queued at Station 0. Mine Time=226 min
+[T+3061m] Truck 4 (0x16d11abf8) Waiting... (elapsed 30 min)
+[T+3072m] Truck 5 (0x16d11ac18) Done Mining... (elapsed 212 min)
+[T+3072m] Station 2: Truck 0x16d11ac78: Start Mining for next 71 minutes
+[T+3077m] Truck 5 (0x16d11ac18) Done Unloading... (elapsed 5 min)
+[T+3077m] Truck 5 Queued at Station 2. Mine Time=278 min
+[T+3079m] Truck 0 (0x16d11ab78) Waiting... (elapsed 30 min)
+[T+3107m] Truck 5 (0x16d11ac18) Waiting... (elapsed 30 min)
+[T+3144m] Truck 8 (0x16d11ac78) Done Mining... (elapsed 71 min)
+[T+3144m] Station 2: Truck 0x16d11abb8: Start Mining for next 241 minutes
+[T+3149m] Truck 8 (0x16d11ac78) Done Unloading... (elapsed 5 min)
+[T+3149m] Truck 8 Queued at Station 2. Mine Time=185 min
+[T+3179m] Truck 8 (0x16d11ac78) Waiting... (elapsed 30 min)
+[T+3261m] Truck 3 (0x16d11abd8) Done Mining... (elapsed 217 min)
+[T+3261m] Station 0: Truck 0x16d11ac38: Start Mining for next 198 minutes
+[T+3266m] Truck 3 (0x16d11abd8) Done Unloading... (elapsed 5 min)
+[T+3266m] Truck 3 Queued at Station 0. Mine Time=151 min
+[T+3294m] Truck 7 (0x16d11ac58) Done Mining... (elapsed 268 min)
+[T+3294m] Station 1: Truck 0x16d11ab98: Start Mining for next 67 minutes
+[T+3296m] Truck 3 (0x16d11abd8) Waiting... (elapsed 30 min)
+[T+3299m] Truck 7 (0x16d11ac58) Done Unloading... (elapsed 5 min)
+[T+3299m] Truck 7 Queued at Station 1. Mine Time=127 min
+[T+3329m] Truck 7 (0x16d11ac58) Waiting... (elapsed 30 min)
+[T+3361m] Truck 1 (0x16d11ab98) Done Mining... (elapsed 67 min)
+[T+3361m] Station 1: Truck 0x16d11abf8: Start Mining for next 211 minutes
+[T+3366m] Truck 1 (0x16d11ab98) Done Unloading... (elapsed 5 min)
+[T+3366m] Truck 1 Queued at Station 1. Mine Time=223 min
+[T+3386m] Truck 2 (0x16d11abb8) Done Mining... (elapsed 241 min)
+[T+3386m] Station 2: Truck 0x16d11ac18: Start Mining for next 278 minutes
+[T+3391m] Truck 2 (0x16d11abb8) Done Unloading... (elapsed 5 min)
+[T+3391m] Truck 2 Queued at Station 2. Mine Time=226 min
+[T+3396m] Truck 1 (0x16d11ab98) Waiting... (elapsed 30 min)
+[T+3421m] Truck 2 (0x16d11abb8) Waiting... (elapsed 30 min)
+[T+3460m] Truck 6 (0x16d11ac38) Done Mining... (elapsed 198 min)
+[T+3460m] Station 0: Truck 0x16d11ac98: Start Mining for next 115 minutes
+[T+3465m] Truck 6 (0x16d11ac38) Done Unloading... (elapsed 5 min)
+[T+3465m] Truck 6 Queued at Station 0. Mine Time=140 min
+[T+3495m] Truck 6 (0x16d11ac38) Waiting... (elapsed 30 min)
+[T+3572m] Truck 4 (0x16d11abf8) Done Mining... (elapsed 211 min)
+[T+3572m] Station 1: Truck 0x16d11ac58: Start Mining for next 127 minutes
+[T+3576m] Truck 9 (0x16d11ac98) Done Mining... (elapsed 115 min)
+[T+3576m] Station 0: Truck 0x16d11ab78: Start Mining for next 226 minutes
+[T+3577m] Truck 4 (0x16d11abf8) Done Unloading... (elapsed 5 min)
+[T+3577m] Truck 4 Queued at Station 1. Mine Time=184 min
+[T+3581m] Truck 9 (0x16d11ac98) Done Unloading... (elapsed 5 min)
+[T+3581m] Truck 9 Queued at Station 0. Mine Time=66 min
+[T+3607m] Truck 4 (0x16d11abf8) Waiting... (elapsed 30 min)
+[T+3611m] Truck 9 (0x16d11ac98) Waiting... (elapsed 30 min)
+[T+3665m] Truck 5 (0x16d11ac18) Done Mining... (elapsed 278 min)
+[T+3665m] Station 2: Truck 0x16d11ac78: Start Mining for next 185 minutes
+[T+3670m] Truck 5 (0x16d11ac18) Done Unloading... (elapsed 5 min)
+[T+3670m] Truck 5 Queued at Station 2. Mine Time=201 min
+[T+3699m] Truck 7 (0x16d11ac58) Done Mining... (elapsed 127 min)
+[T+3699m] Station 1: Truck 0x16d11ab98: Start Mining for next 223 minutes
+[T+3700m] Truck 5 (0x16d11ac18) Waiting... (elapsed 30 min)
+[T+3704m] Truck 7 (0x16d11ac58) Done Unloading... (elapsed 5 min)
+[T+3704m] Truck 7 Queued at Station 1. Mine Time=91 min
+[T+3734m] Truck 7 (0x16d11ac58) Waiting... (elapsed 30 min)
+[T+3802m] Truck 0 (0x16d11ab78) Done Mining... (elapsed 226 min)
+[T+3802m] Station 0: Truck 0x16d11abd8: Start Mining for next 151 minutes
+[T+3807m] Truck 0 (0x16d11ab78) Done Unloading... (elapsed 5 min)
+[T+3807m] Truck 0 Queued at Station 0. Mine Time=68 min
+[T+3837m] Truck 0 (0x16d11ab78) Waiting... (elapsed 30 min)
+[T+3850m] Truck 8 (0x16d11ac78) Done Mining... (elapsed 185 min)
+[T+3850m] Station 2: Truck 0x16d11abb8: Start Mining for next 226 minutes
+[T+3855m] Truck 8 (0x16d11ac78) Done Unloading... (elapsed 5 min)
+[T+3855m] Truck 8 Queued at Station 2. Mine Time=178 min
+[T+3885m] Truck 8 (0x16d11ac78) Waiting... (elapsed 30 min)
+[T+3923m] Truck 1 (0x16d11ab98) Done Mining... (elapsed 223 min)
+[T+3923m] Station 1: Truck 0x16d11abf8: Start Mining for next 184 minutes
+[T+3928m] Truck 1 (0x16d11ab98) Done Unloading... (elapsed 5 min)
+[T+3928m] Truck 1 Queued at Station 1. Mine Time=220 min
+[T+3953m] Truck 3 (0x16d11abd8) Done Mining... (elapsed 151 min)
+[T+3953m] Station 0: Truck 0x16d11ac38: Start Mining for next 140 minutes
+[T+3958m] Truck 3 (0x16d11abd8) Done Unloading... (elapsed 5 min)
+[T+3958m] Truck 3 Queued at Station 0. Mine Time=168 min
+[T+3958m] Truck 1 (0x16d11ab98) Waiting... (elapsed 30 min)
+[T+3988m] Truck 3 (0x16d11abd8) Waiting... (elapsed 30 min)
+[T+4076m] Truck 2 (0x16d11abb8) Done Mining... (elapsed 226 min)
+[T+4076m] Station 2: Truck 0x16d11ac18: Start Mining for next 201 minutes
+[T+4081m] Truck 2 (0x16d11abb8) Done Unloading... (elapsed 5 min)
+[T+4081m] Truck 2 Queued at Station 2. Mine Time=195 min
+[T+4094m] Truck 6 (0x16d11ac38) Done Mining... (elapsed 140 min)
+[T+4094m] Station 0: Truck 0x16d11ac98: Start Mining for next 66 minutes
+[T+4099m] Truck 6 (0x16d11ac38) Done Unloading... (elapsed 5 min)
+[T+4099m] Truck 6 Queued at Station 0. Mine Time=269 min
+[T+4108m] Truck 4 (0x16d11abf8) Done Mining... (elapsed 184 min)
+[T+4108m] Station 1: Truck 0x16d11ac58: Start Mining for next 91 minutes
+[T+4111m] Truck 2 (0x16d11abb8) Waiting... (elapsed 30 min)
+[T+4113m] Truck 4 (0x16d11abf8) Done Unloading... (elapsed 5 min)
+[T+4113m] Truck 4 Queued at Station 1. Mine Time=101 min
+[T+4129m] Truck 6 (0x16d11ac38) Waiting... (elapsed 30 min)
+[T+4143m] Truck 4 (0x16d11abf8) Waiting... (elapsed 30 min)
+[T+4160m] Truck 9 (0x16d11ac98) Done Mining... (elapsed 66 min)
+[T+4160m] Station 0: Truck 0x16d11ab78: Start Mining for next 68 minutes
+[T+4165m] Truck 9 (0x16d11ac98) Done Unloading... (elapsed 5 min)
+[T+4165m] Truck 9 Queued at Station 0. Mine Time=149 min
+[T+4195m] Truck 9 (0x16d11ac98) Waiting... (elapsed 30 min)
+[T+4199m] Truck 7 (0x16d11ac58) Done Mining... (elapsed 91 min)
+[T+4199m] Station 1: Truck 0x16d11ab98: Start Mining for next 220 minutes
+[T+4204m] Truck 7 (0x16d11ac58) Done Unloading... (elapsed 5 min)
+[T+4204m] Truck 7 Queued at Station 1. Mine Time=145 min
+[T+4229m] Truck 0 (0x16d11ab78) Done Mining... (elapsed 68 min)
+[T+4229m] Station 0: Truck 0x16d11abd8: Start Mining for next 168 minutes
+[T+4234m] Truck 0 (0x16d11ab78) Done Unloading... (elapsed 5 min)
+[T+4234m] Truck 0 Queued at Station 0. Mine Time=191 min
+[T+4234m] Truck 7 (0x16d11ac58) Waiting... (elapsed 30 min)
+[T+4264m] Truck 0 (0x16d11ab78) Waiting... (elapsed 30 min)
+[T+4278m] Truck 5 (0x16d11ac18) Done Mining... (elapsed 201 min)
+[T+4278m] Station 2: Truck 0x16d11ac78: Start Mining for next 178 minutes
+[T+4283m] Truck 5 (0x16d11ac18) Done Unloading... (elapsed 5 min)
+[T+4283m] Truck 5 Queued at Station 2. Mine Time=144 min
+[T+4313m] Truck 5 (0x16d11ac18) Waiting... (elapsed 30 min)
+
+Statistics:
+
+*** Stations ***
+Station 3: Total Trucks: 300 Total Mine Time: 0.000000 hr
+
+**** Trucks ****
+Truck 0: Total Mines: 8 Total Mine Time: 17.093889 hr
+Truck 1: Total Mines: 9 Total Mine Time: 5.197778 hr
+Truck 2: Total Mines: 8 Total Mine Time: 8.800278 hr
+Truck 3: Total Mines: 7 Total Mine Time: 3.006111 hr
+Truck 4: Total Mines: 9 Total Mine Time: 3.227222 hr
+Truck 5: Total Mines: 8 Total Mine Time: 4.707778 hr
+Truck 6: Total Mines: 7 Total Mine Time: 0.403611 hr
+Truck 7: Total Mines: 9 Total Mine Time: 6.449722 hr
+Truck 8: Total Mines: 7 Total Mine Time: 2.680833 hr
+Truck 9: Total Mines: 7 Total Mine Time: 13.068056 hr
+********** Lunar Mining Simulation End **********
