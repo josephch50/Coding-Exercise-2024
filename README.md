@@ -1,5 +1,14 @@
 # Coding Exercise
 
+## Build Instructions
+```
+cmake -B build
+cmake --build build -t simulation
+./build/simulation
+```
+All telemetry + statistics will be outputted via stdout and in a file called `simulation.log`.
+
+## Summary
 You are tasked with developing software to manage a space mining operation that extracts Helium-3 from lunar regolith. The operation consists of n-mining stations, each capable of handling one mining truck at a time. Mining trucks spend varying amounts of time mining, ranging from one to five hours. For the sake of this exercise, each truck has a random probability of mining in that range, per load. Mining trucks require 30 minutes to transition to an available mining station. Unloading a mining truck takes 5 minutes. Mining trucks should be directed to the first open station or if all stations are occupied, the station with the shortest queue. Trucks do not move queues after they enter them. Your objective is to create a simulation that can accept a configurable number of mining trucks and stations and then calculate statistics for each mining station and mining truck. The simulation should run faster than real-time. The simulation should represent 72 hours of continuous mining.
 
 ## Additional Details
